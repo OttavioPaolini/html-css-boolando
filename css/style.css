@@ -19,7 +19,7 @@ nav{
 }
 /* COMMON */
 .padding-t{
-    padding-top: 200px;
+    padding-top: 100px;
 }
 .row{
     margin-bottom: 50px;
@@ -76,6 +76,15 @@ ul{
 .icon{
     padding: 1em 0;
 }
+.hearth{
+    font-size: 1.5em;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.hearth:hover{
+    color: red;
+}
 /* NAVIGATOR BANNER */
 nav{
     color: #E7E7E6;
@@ -110,7 +119,9 @@ footer{
 a{
     padding: 1px 0;
 }
-
+.social{
+    padding: 26px 0
+}
 
 /* HOOVER */
 .absolute{

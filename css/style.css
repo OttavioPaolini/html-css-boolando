@@ -4,3 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.display-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+/* MAIN-SHOP */
+.col{
+    width: calc(100% / 3 - 10px);
+}
+.card{
+    /* debug */
+    height: 300px;
+    border: 1px solid red;
+}

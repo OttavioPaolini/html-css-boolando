@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+}
 
 /* COMMON */
 .container{
@@ -11,18 +14,45 @@
     margin: 0 auto;
     max-width: 1200px;
 }
-img{
-    max-width: 100%;
+
+.red-discount{
+    position: absolute;
+    bottom: 130px;
+    left: 0px;
+    width: 50px;
+    height: 20px;
+    color: white;
+    background-color: red;
 }
+.eco{   
+    position: absolute;
+    bottom: 130px;
+    left: 52px;
+    min-width: 50px;
+    height: 20px;
+    color: white;
+    background-color:#008000;   
+}
+/* UTILITY */
 .display-flex{
     display: flex;
 }
 .justify-content{
     justify-content: space-between;
 }
-/* UTILITY */
 .mt{
     margin-top: 200px;
+}
+.red-font{
+    color: red;
+}
+.font-marker{
+    font-size: 12px;
+    text-align: center;
+    padding: 3px 10px;
+}
+.font-lt{
+    text-decoration: line-through;
 }
 /* NAVIGATOR BANNER */
 nav{
@@ -34,5 +64,5 @@ nav{
     width: calc(100% / 3 - 10px);
 }
 .card{
-    
+    position: relative;   
 }

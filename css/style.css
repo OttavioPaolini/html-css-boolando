@@ -69,6 +69,9 @@ nav{
     background-color:  orange;
     height: 50px;
 }
+img #{
+    height: 30px;
+}
 /* MAIN-SHOP */
 .col{
     width: calc(100% / 3 - 10px);
@@ -93,10 +96,10 @@ a{
 
 
 /* HOOVER */
-.card:hover #img-1{
-    z-index: 10;
-    display: none;
-}
-#img-1b{
+.absolute{
     position: absolute;
+    top: 0;
+}
+.absolute:hover{
+    display: none;
 }

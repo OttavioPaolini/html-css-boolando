@@ -9,6 +9,9 @@ img{
 }
 
 /* COMMON */
+.row{
+    margin-bottom: 50px;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -32,6 +35,9 @@ img{
     height: 20px;
     color: white;
     background-color:#008000;   
+}
+#test{
+    left: 0;
 }
 /* UTILITY */
 .display-flex{
@@ -66,3 +72,6 @@ nav{
 .card{
     position: relative;   
 }
+
+
+

@@ -7,7 +7,11 @@
 img{
     max-width: 100%;
 }
-
+a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
 /* COMMON */
 .row{
     margin-bottom: 50px;
@@ -63,7 +67,7 @@ img{
 /* NAVIGATOR BANNER */
 nav{
     background-color:  orange;
-    height: 100px;
+    height: 50px;
 }
 /* MAIN-SHOP */
 .col{
@@ -71,6 +75,20 @@ nav{
 }
 .card{
     position: relative;   
+}
+
+/* FOOTER */
+
+footer{
+    color: white;
+    height: 100px;
+    background-color: #1A1A1A;
+}
+.credit{  
+    padding: 26px 0;
+}
+a{
+    padding: 1px 0;
 }
 
 

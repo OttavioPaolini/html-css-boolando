@@ -11,18 +11,28 @@
     margin: 0 auto;
     max-width: 1200px;
 }
+img{
+    max-width: 100%;
+}
 .display-flex{
     display: flex;
 }
-.flex-wrap{
-    flex-wrap: wrap;
+.justify-content{
+    justify-content: space-between;
+}
+/* UTILITY */
+.mt{
+    margin-top: 200px;
+}
+/* NAVIGATOR BANNER */
+nav{
+    background-color:  orange;
+    height: 100px;
 }
 /* MAIN-SHOP */
 .col{
     width: calc(100% / 3 - 10px);
 }
 .card{
-    /* debug */
-    height: 300px;
-    border: 1px solid red;
+    
 }

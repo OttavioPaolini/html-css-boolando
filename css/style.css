@@ -12,7 +12,15 @@ a{
     text-decoration: none;
     color: white;
 }
+nav{
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+}
 /* COMMON */
+.padding-t{
+    padding-top: 200px;
+}
 .row{
     margin-bottom: 50px;
 }
@@ -43,15 +51,16 @@ a{
 #test{
     left: 0;
 }
+ul{
+    list-style-type: none;
+    padding: 1em 0;
+}
 /* UTILITY */
 .display-flex{
     display: flex;
 }
 .justify-content{
     justify-content: space-between;
-}
-.mt{
-    margin-top: 200px;
 }
 .red-font{
     color: red;
@@ -64,13 +73,21 @@ a{
 .font-lt{
     text-decoration: line-through;
 }
+.icon{
+    padding: 1em 0;
+}
 /* NAVIGATOR BANNER */
 nav{
-    background-color:  orange;
+    color: #E7E7E6;
+    background-color:  #FF6900;
     height: 50px;
 }
-img #{
+.logo{
+    margin-top: 10px;
     height: 30px;
+}
+.display-flex li{
+    padding-right: 10px;
 }
 /* MAIN-SHOP */
 .col{
